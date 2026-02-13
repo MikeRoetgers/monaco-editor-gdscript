@@ -4,7 +4,7 @@ GDScript (Godot 4.x) syntax highlighting for the [Monaco Editor](https://microso
 
 [![CI](https://github.com/MikeRoetgers/monaco-editor-gdscript/actions/workflows/ci.yml/badge.svg)](https://github.com/MikeRoetgers/monaco-editor-gdscript/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/monaco-editor-gdscript.svg)](https://www.npmjs.com/package/monaco-editor-gdscript)
-[![license](https://img.shields.io/npm/l/monaco-editor-gdscript.svg)](https://github.com/MikeRoetgers/monaco-editor-gdscript/blob/main/LICENSE.md)
+[![license](https://img.shields.io/npm/l/monaco-editor-gdscript)](https://github.com/MikeRoetgers/monaco-editor-gdscript/blob/main/LICENSE.md)
 
 ## Why? VSCode has gdscript syntax highlighting.
 
