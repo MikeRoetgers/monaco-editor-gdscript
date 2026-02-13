@@ -1,0 +1,48 @@
+{
+    "name": "monaco-editor-gdscript",
+    "version": "0.1.0",
+    "description": "GDScript (Godot 4.x) language support for Monaco Editor",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup src/index.ts --format cjs,esm --dts",
+        "test": "vitest run",
+        "prepublishOnly": "npm run build"
+    },
+    "peerDependencies": {
+        "monaco-editor": ">=0.30.0"
+    },
+    "devDependencies": {
+        "@types/jsdom": "^27.0.0",
+        "jsdom": "^28.0.0",
+        "monaco-editor": "^0.52.0",
+        "tsup": "^8.0.0",
+        "typescript": "^5.0.0",
+        "vitest": "^2.0.0"
+    },
+    "keywords": [
+        "monaco",
+        "monaco-editor",
+        "gdscript",
+        "godot",
+        "syntax-highlighting",
+        "monarch",
+        "language"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MikeRoetgers/monaco-editor-gdscript"
+    }
+}
