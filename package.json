@@ -1,6 +1,6 @@
 {
     "name": "monaco-editor-gdscript",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "GDScript (Godot 4.x) language support for Monaco Editor",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
